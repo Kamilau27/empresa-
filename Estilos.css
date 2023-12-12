@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/*MENU */
+
+#menu a {
+    font-family: 'Dancing Script', cursive;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#menu button  {
+    font-family: 'Dancing Script', cursive;
+    font-size:18px;
+    font-weight: bold;
+}
+
+/*IMAGENES CAMBIARLAS 30 COMPU Y 20 CELULAR */
+
+.carousel-inner{
+    border-radius: 20px ;
+    max-height: 30rem;
+    
+}
+
+/*PRIMER PARRAFO*/
+#intro{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*PANTALLA MEDIA*/
+
+@media (max-wdth: 768px) {
+    #intro {
+        width:90% !important;
+    }
+    .servicio-fila{
+        width:100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+}
